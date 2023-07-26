@@ -7,13 +7,13 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="edgaro",
-    version="1.0.1",
+    version="1.0.2.1",
     description="Explainable imbalanceD learninG compARatOr",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
-    author="",
-    author_email="",
+    url="https://github.com/adrianstando/edgaro",
+    author="Adrian Stańdo",
+    author_email="adrian.j.stando@gmail.com",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Science/Research",
@@ -47,7 +47,7 @@ setup(
         'statsmodels>=0.13.2'
     ],
     project_urls={
-        "Documentation": "",
-        "Code repository": ""
+        "Documentation": "https://adrianstando.github.io/edgaro",
+        "Code repository": "https://github.com/adrianstando/edgaro"
     },
 )
